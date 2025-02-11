@@ -13,17 +13,21 @@ This project is a backend service for uploading files (images and videos). After
 ## Installation
 
 1. Clone the repository:
+
    ```sh
    git clone https://github.com/itsshahbazhere/file_upload_backend.git
    cd file_upload_backend
    ```
 2. Install dependencies:
+
    ```sh
    npm install
    ```
 3. Set up environment variables:
+
    - Create a `.env` file in the root directory.
    - Add the following keys and update with your values:
+
      ```env
      CLOUDINARY_CLOUD_NAME=<your-cloudinary-cloud-name>
      CLOUDINARY_API_KEY=<your-cloudinary-api-key>
@@ -38,6 +42,7 @@ This project is a backend service for uploading files (images and videos). After
 ## Usage
 
 1. Use Nodemon for automatic restarts:
+
    ```sh
    npm run dev
    ```
